@@ -12,13 +12,13 @@ while True:
         descripcion = input(f"Escribe la descripcion del articulo {contador}")
         cantidad = int(input("Escribe la cantidad a comprar del articulo"))
         precio= float(input(f"Escribe el precio de piezas vendidas"))
-        articulos[contador]=[descripcion,cantidad,precio,cantidad*precio]
+        articulos[contador]=[descripcion.upper(),cantidad,precio,cantidad*precio]
         print(f"\nN° {contador} de Ventas\nDescripcion: {descripcion}\t {cantidad}X ${precio}\tMonto Total: {cantidad*precio}\n")
         input("<<ENTER>>")
     elif opcion=='2':
         print("\n\tConsulta tus ventas\n")
         buscar=input("Introduce la descripcion a buscar sobre la venta")
-        lista = [i for i in articulos if buscar==articulos[i][0]]
+        lista = [i for i in articulos if buscar.upper()==articulos[i][0]]
         if len(lista)!=0:
             for registro in lista:
                 print(f"N° {registro} de Ventas\nDescripcion: {articulos[registro][0]}\t {articulos[registro][1]}X ${articulos[registro][2]}\tTotal: {articulos[registro][3]}")
