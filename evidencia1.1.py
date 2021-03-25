@@ -1,5 +1,5 @@
 articulos={}
-
+#HolaSoyFer
 while True:
     print("\n\tMain menu")
     print("1-Registrar una venta")
