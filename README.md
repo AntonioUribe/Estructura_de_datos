@@ -1,7 +1,7 @@
 # Estructura de datos y procesamiento
 # Grupo 32
 *****************************************************
-    Realizado por:<<AntonioUribe>>  <<FernandaEscamilla>> <<Leonardo8122>> <<Funkocompa>>
+    Realizado por:<<AntonioUribe>>  <<FernandaEscamilla>> <<Leonardo8122>> <<Funkompa>>
     
 *****************************************************
 The python codes for evidence 1
